@@ -6,7 +6,7 @@ $git clone https://github.com/<username>/demo-helloworld-library.git
 $cd demo-helloworld-library
 ```
 
-## Step 1 :: create file `~/.pypirc`
+## Step 1 :: create file `.pypirc`
 
 ```
 [distutils]
