@@ -58,10 +58,9 @@ $git push origin 1.0
 
 Deploy to PyPI
 ```
-$ pip install -U pip setuptools twine
-$ python setup.py sdist
-$ /c/Users/Kachain/AppData/Roaming/Python/Scripts/twine upload dist/*
-$ twine upload dist/*
+$pip install -U pip setuptools twine --user
+$python setup.py sdist
+$twine upload dist/*
 
 Uploading distributions to https://upload.pypi.org/legacy/
 Uploading helloworld-library-1.0.tar.gz
