@@ -2,7 +2,7 @@
 
 ## Step 0 :: Clone your project project with [Git command](https://git-scm.com/)
 ```
-$git clone https://github.com/<username>/demo-helloworld-library.git
+$git clone https://github.com/kachain2019/demo-helloworld-library.git
 $cd demo-helloworld-library
 ```
 
