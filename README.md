@@ -16,8 +16,8 @@ index-servers =
 
 [pypi]
 repository=https://upload.pypi.org/legacy/
-username=username
-password=password
+username=username // username ที่คุณสมัครใน pypi
+password=password // password ที่คุณสมัครใน pypi
 ```
 
 * Register your account at [PyPi](https://pypi.org/)
