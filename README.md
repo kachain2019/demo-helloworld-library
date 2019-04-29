@@ -7,7 +7,7 @@ $cd demo-helloworld-library
 ```
 
 ## Step 1 :: create file `.pypirc` 
- * สร้างไฟล์ `.pypirc` ไว้ที่ path C:\Users\<ชื่อ> ดูจาก cmd ก็ได้ครับ แล้วเอาโค้ดข่้างล่างไปวาง โค้ดหลังจาก ``` ถึง ``` 8iy[
+ * สร้างไฟล์ `.pypirc` ไว้ที่ path C:\Users\<ชื่อ> ดูจาก cmd ก็ได้ครับ แล้วเอาโค้ดข่้างล่างไปวาง
 
 ```
 [distutils]
