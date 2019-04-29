@@ -1,1 +1,1 @@
-git+https://github.com/up1/demo-helloworld-library.git#egg=helloworld-library
+git+https://github.com/kachain2019/demo-helloworld-library.git#egg=helloworld-library

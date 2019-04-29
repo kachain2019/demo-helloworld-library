@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name="chain-helloworld-library",
+    name="chain2-helloworld-library",
     version='1.0',
     package_dir={'' : 'src'},
     packages=['HelloWorld'],
