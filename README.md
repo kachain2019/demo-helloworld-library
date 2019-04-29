@@ -58,9 +58,12 @@ $git push origin 1.0
 
 Deploy to PyPI
 ```
-$pip install -U pip setuptools twine --user
-$python setup.py sdist
-$twine upload dist/*
+• การสร้าง library บน pypi.org •
+$ pip install -U pip setuptools twine --user --> ติดตั้ง
+$ python setup.py sdist --> ติดตั้ง setup.py ที่เราแก้ไขไป
+$ twine upload dist/*
+bash: twine: command not found --> จะใช้คำสั่งไม่ได้เพราะติดสิทธิ์ในการอัพโหลกไฟล์
+$ /c/Users/Entronica-Fri3nd/AppData/Roaming/Python/Scripts/twine upload dist/* --> ต้องไปที่ path โดยตรงเพื่ออัพโหลด
 
 Uploading distributions to https://upload.pypi.org/legacy/
 Uploading helloworld-library-1.0.tar.gz
