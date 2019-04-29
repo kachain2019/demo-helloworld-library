@@ -7,7 +7,7 @@ $cd demo-helloworld-library
 ```
 
 ## Step 1 :: create file `.pypirc` 
- * สร้างไฟล์ `.pypirc` ไว้ที่ path C:\Users\<ชื่อ> ดูจาก cmd ก็ได้ครับ 
+ * สร้างไฟล์ `.pypirc` ไว้ที่ path C:\Users\<ชื่อ> ดูจาก cmd ก็ได้ครับ แล้วเอาโค้ดข่้างล่างไปวาง โค้ดหลังจาก ``` ถึง ``` 8iy[
 
 ```
 [distutils]
@@ -40,11 +40,11 @@ Edit file `setup.py`
 from setuptools import setup
 
 setup(
-    name="helloworld-library",  // change to your name
+    name="helloworld-library",  // change to your name ชื่อไลบรารี่ของคุณ
     version='1.0',  // change to version as same as tag version
     package_dir={'' : 'src'},
     packages=['HelloWorld'],
-    url='https://github.com/up1/demo-helloworld-library', // change to your repository
+    url='https://github.com/kachain2019/demo-helloworld-library', // change to your repository เปลี่ยนเป็น url ของ git คุณ
     author='your name', 
     author_email='your email',
 )
