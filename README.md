@@ -22,11 +22,6 @@ password=password
 
 * Register your account at [PyPi](https://pypi.org/)
 
-And change permission
-
-```
-$chmod 600 .pypirc
-```
 
 ## Step 2 :: To publish your code into [PyPI](https://pypi.org/)
 List of files
